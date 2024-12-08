@@ -1,0 +1,13 @@
+body{
+    text-align:center;
+    background-color:rgb(237, 205, 205);
+    background-image:url('homepic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h2{
+    text-align: center;
+}
+.h5{
+    align-items: baseline;
+}

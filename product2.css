@@ -1,0 +1,242 @@
+
+body{
+    margin-left: ;
+  }
+  .brand-logo{
+      padding: 0 30px;
+  
+  }
+  .brand-logo img{
+      width: 100px;
+      height: 100px;
+      margin-top: -20px;
+      border-radius: 50%;
+  }
+  .menu-item a{
+      display: block;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 8px 30px;
+      margin: 12px 0;
+      color: rgb(128,129,129);
+      font-weight: 300;
+  
+  }
+  .menu-item a:hover{
+      background: rgb(250,212,218);
+  
+  }
+  #food-container{
+      background: whitesmoke;
+      overflow: scroll;
+      overflow-x: hidden;
+      box-sizing: content-box;
+  }
+  
+  
+  #header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 40px;
+      padding-bottom: 10px;
+      position: sticky;
+      top: 0;
+      background: whitesmoke;
+      z-index: 1;
+  }
+  ::-webkit-scrollbar{
+      display: none;
+  }
+  #header.address{
+      font-size: 20px;
+  }
+  .your-address{
+      border: 1px solid indianred;
+      color: rgb(241, 193, 193);
+      padding: 5px 10px;
+      border-radius: 5px;
+      width: 150px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      cursor: pointer;
+  
+  }
+  .add-box i{
+      font-size: 20px;
+  }
+  .util i,.user i{
+      font-size: 18px;
+      margin: 0 16px;
+      border: 1px solid crimson;
+      padding: 8px 16px;
+      color: crimson;
+      border-radius: 20px;
+      cursor: pointer;
+  
+  }
+  .util i:active{
+      color: white;
+      background: crimson;
+  
+  }
+  .food-items{
+      transition: 0.5s all ease-in-out;
+  
+  
+  }
+  .#homemadecakes,#Chicken,#Paneer,#vegetable,#Chinese,#south-indian{
+      margin-top: 40px;
+      width:0%;
+  
+  }
+  #paneer #item-card{
+      background:  rgb(248, 240, 240);
+      transition: all;
+  }
+  #vegetable #item-card{
+      background: yellowgreen;
+  }
+  #card-top{
+      display: flex;
+      margin: 5px 0;
+      justify-content: space-between;
+  }
+  #rating{padding: 7px;
+      color: rgb(76, 127, 112);
+      background: rgb(250, 245, 245);
+      font-size: 14px;
+      border-radius: 14px;
+  
+  }
+  .fa-heart-o{
+      padding: 6px;
+      background-color: rgb(13, 13, 13);
+      cursor: pointer;
+      border-radius: 50%;
+  
+  }
+  .fa-heart-o:hover{
+      color:red;
+  }
+  .toggle-heart{
+      background: orange;
+      color: white;
+  }
+  #Chinese #item-card,#south-indian #item-card{
+      background: rgb(221,243,243);
+  }
+  #category-name,.item-menu{
+      margin: 10px;
+      font-size: 35px;
+      color: rgb(248, 230, 237);
+      text-align: center;
+      font-family:castellar;
+  }
+  #item-card{
+      width: 280px;
+      height: 390px;
+      padding: 10px;
+      margin: 30px;
+      display: inline-block;
+      border-radius: 15px;
+      background:rgba(249, 229, 229, 0.971);
+      cursor: pointer;
+      text-align: center;
+      transition: 0.5s all ease-in-out;
+      box-shadow:0 4px 8px 0;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #item-card img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: auto;
+      display: block;
+      margin-bottom: 25px;
+      transition: 0.5s all ease-in-out;
+      
+  }
+  #item-card img:hover img{
+      transform: scale(1.2);
+  
+  }
+  #item-name{
+      margin: 5px;
+      font-weight: 600;
+      color: darkslategray;
+      font-size: 18px;
+  
+  }
+  #item-price{
+      margin: 0;
+      color: rgb(76, 107, 107);
+      font-weight: 500;
+      font-size: 18px;
+  
+  }
+  
+  
+  .taste-header{
+      padding: 40px;
+      padding-bottom: 10px;
+      position: sticky;
+      top: 0;
+      background: whitesmoke;
+  }
+  .item-menu{
+      margin: 0;
+      font-size: 30px;
+      margin-top: 40px;
+      color: indianred;
+      background: whitesmoke;
+  }
+  #cart{
+      background: whitesmoke;
+      padding-right: 30px;
+      overflow-y: scroll;
+      align-items: right;
+  }
+  .list-card{
+      display:flex;
+      align-items: center;
+      margin-top: 15px;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: 0.3s all ease-in-out;
+  }
+  .list-card:hover img{
+      transition: 0.5s all ease-in-out;
+      transform: scale(1.2);
+  }
+  .list-card img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+  
+  
+  }
+  .list-name{
+      font-size: 20px;
+      margin: 0 10px;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: rgb(94,43,43);
+  }
+  .list-card:hover{
+      background: rgb(255,216,222);
+  
+  }
+  
+  
+  .border{
+      width: 80px;
+      height: 4px;
+      margin: 3px 0;
+      margin-bottom: 30px;
+      border-radius: 2px;
+      background: coral;
+  }
+  
+  

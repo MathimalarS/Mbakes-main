@@ -1,0 +1,40 @@
+body
+{
+background-image:url("review.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+form
+{
+width:500px;
+padding:20px;
+margin:auto;
+} 
+input[type=text]
+{
+width:500px;
+padding:8px;
+font-size:17px;
+color: black;
+}
+input[type=comment]
+{
+padding:5px;
+font-size:18px;
+color: black;
+}
+textarea
+{
+width:500px;
+font-size:20px;
+margin:auto;
+}
+button[type=button]
+{
+    padding:5px;
+    font-size:18px;
+}
+h1{
+    text-align:center;
+}
