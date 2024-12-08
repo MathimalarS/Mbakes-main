@@ -1,0 +1,38 @@
+<html>
+    <head>
+        
+        <title>Mbakes</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/5ef10eb0d5.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="payment.css">
+    </head>
+    <body style="background-image:url(payment4.jpeg);background-repeat:no repeat; background-size:cover;">
+        <form action="action" style="background-color: rgba(240, 248, 255, 0.334);">
+        <h1><font color="black">Mbakes</h1>
+        <b><label for="name">Payee Name&emsp;<i class="fa-solid fa-user"></i></label><br>
+        <input class="box1" type="text" name="name" id="name" placeholder="Enter name" required><br>
+        <label for="email">EMAIL&emsp;<i class="fa-solid fa-envelope"></i></label><br>
+        <input class="box1"type="email" name="email" id="email" placeholder="Enter Email" required><br>
+        <label>Payment Details:</label><br><br>
+            &emsp;&emsp;<input type="radio" name="payment" id="CreditCard" value="Credit Card" required >
+            <label for="male">Credit Card&emsp;<i class="fa-solid fa-credit-card"></i></label>
+            &emsp;&emsp;<input type="radio" name="payment" id="debitcard" value="debitcard" required>
+            <label for="male">Debit Card&emsp;<i class="fa-regular fa-credit-card"></i></label><br><br>
+        <label for="cardnum">Card Number</label><br>
+        <input class="box1" type="number" name="number" id="number" placeholder="1234 1234 1234 1234" required><br>
+        <div class="child1">
+            <label for="cardexp">Vaild Upto &emsp;<i class="fa-regular fa-calendars"></i></label><br>
+            <input class="box2" type="month" name="month" id="month" placeholder="mm/yy" required><br>     
+        </div>
+        <div class="child1">
+            <label for="amount">AMOUNT&emsp;<i class="fa-solid fa-indian-rupee-sign"></i></label><br>
+        <input class="box2" type="text" name="amount" id="amount" placeholder="Enter AMOUNT" required><br>
+        </div>
+        <div class="child1">
+            <label for="cardcvc">Zip Code</label><br>
+        <input class="box2" type="code" name="code" id="code" placeholder="code" required><br>
+        <a href="tq.html"><button type="button" class="btn btn-dark">Pay Now</button></a>
+        <a href="Cake.html"><button type="button" class="btn btn-dark">Close</button></a></div></b>
+        </form>
+      </body>
+</html>
